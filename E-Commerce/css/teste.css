@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, rgb(17, 17, 17), rgb(0, 0, 0), rgb(7, 6, 7), rgb(0, 0, 0));
+    background-size: 400% 400%; /* Tamanho expandido para criar o efeito de movimento */
+    animation: fluidBackground 15s ease infinite; /* Animação para o movimento contínuo */
+}
+
+
+.HAT{ 
+
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.MARGEM{
+
+margin-right: 50px;
+
+}
+
+.contato{
+margin-right: 50px;
+
+}
+
+header{
+height:  80px;
+display: flex;
+align-items: center;
+background-color: #000;
+    border-bottom: 0.5px solid;
+    border-top: 0.5px solid;
+}
+
+
+
+.header_nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+  margin-left: 40%;
+  width: 25%;
+    color: aliceblue;
+}
+
+
+.AS{
+    font-weight: bold;
+color: rgba(208, 203, 195, 0.916);
+margin-right: 50px;
+font-size: 16px;
+}
+.container {
+    width: 100%;
+    min-height: calc(100vh - 80px); /* Ajuste para considerar a altura do header */
+    margin: 3% auto;
+}
+
+/* Garantindo que o fundo cubra toda a tela */
+html, body {
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+}
+
+/* O contêiner das partículas */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 270%;
+    z-index: -1; /* Garante que as partículas fiquem atrás do conteúdo */
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative; /* Altera para relative para permitir rolagem */
+    z-index: 1; /* O conteúdo fica acima das partículas */
+}
+
+/* Efeito de animação fluida do fundo */
+@keyframes fluidBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    75% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.Detalhes{
+margin-top: 10px;
+margin-left: 40px;
+
+}
+.Negao{
+    width: 100%;
+    background-color: #000;
+    
+    }

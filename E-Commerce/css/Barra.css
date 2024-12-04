@@ -1,0 +1,70 @@
+.buscar{
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 15px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+input {
+    margin-left: 70px;
+    width: 100%;
+    height: 50px;
+    color: #ddd;
+    font-size: 22px;
+    background-color: #242424;
+    border: 1px solid #727070;
+    border-radius: 20px;
+    padding: 10px 40px 10px 10px; /* Adiciona espaço à direita para o ícone */
+    text-align: center; /* Centraliza o texto do placeholder */
+}
+
+.lupa-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px; /* Ajuste o tamanho do ícone */
+    height: 20px; /* Ajuste o tamanho do ícone */
+}
+
+#listaProdutos{
+    display: none;   
+    width: 91%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
+
+mark {
+    background-color: rgb(207, 188, 160);
+}
+
+#listaProdutos li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border: 1px solid #ddd;
+    background: #f6f6f6;
+    padding: 12px;
+}
+
+#listaProdutos li a:hover{
+    background: #eee;
+}
+
+.item-name{
+    margin-left: 15px;
+}

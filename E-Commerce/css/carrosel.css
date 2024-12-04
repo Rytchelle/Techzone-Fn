@@ -1,0 +1,74 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%; /* Mantém 100% da largura disponível */
+  max-width: 1400px; /* Limita a largura máxima em telas grandes */
+  height: 500px; /* Mantém a altura original */
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide img,
+.carousel-slide video {
+  width: 100%; /* Ocupa toda a largura do carrossel */
+  height: 100%; /* Adapta-se à altura do contêiner */
+  object-fit: cover; /* Garante que a imagem ou vídeo seja cortada proporcionalmente */
+  border-radius: 10px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 1024px) {
+  .carousel-container {
+    height: 450px; /* Reduz levemente a altura em telas menores */
+  }
+
+  .prev, .next {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    height: 400px; /* Altura reduzida para telas muito menores */
+  }
+
+  .prev, .next {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link rel="stylesheet" href="/css/PageProduto.css">
+    <link rel="stylesheet" href="/css/carregando.css">
+</head>
+<body>
+    
+    <header>
+        
+        <nav class="header_nav">
+            
+            
+            <a class="AS" href="/html/index.html">HOME</a>
+            <a class="AS"  href="/html/Cartao.html">PAGAMENTO</a>
+            <a class="AS" href="/html/about.html">SOBRE</a>
+            <a class="AS" href="/html/TodosProdutos.html">PRODUTOS</a>
+            
+            
+        </nav>
+        
+        
+        
+    </header>  
+    
+    <<div id="carregando" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+    
+    
+    
+    <div id="produtoDetalhes">
+       
+    </div>
+    
+    <script src="/JS/produto.js"></script> 
+    
+    
+        <div id="particles-js"></div>
+    
+        <!-- Conteúdo que aparecerá acima das partículas -->
+        
+    
+        <!-- Inclusão da biblioteca particles.js -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    
+        <script>
+            // Inicialização do particles.js
+            particlesJS('particles-js', {
+                particles: {
+                    number: {
+                        value: 80,
+                        density: {
+                            enable: true,
+                            value_area: 800
+                        }
+                    },
+                    shape: {
+                        type: 'circle'
+                    },
+                    color: {
+                        value: '#ffffff'
+                    },
+                    opacity: {
+                        value: 0.5,
+                        random: true,
+                        anim: {
+                            enable: true,
+                            speed: 1,
+                            opacity_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    size: {
+                        value: 5,
+                        random: true,
+                        anim: {
+                            enable: false,
+                            speed: 4,
+                            size_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 150,
+                        color: '#ffffff',
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 2,
+                        direction: 'none',
+                        random: true,
+                        straight: false,
+                        out_mode: 'bounce'
+                    }
+                },
+                interactivity: {
+                    events: {
+                        onhover: {
+                            enable: true,
+                            mode: 'repulse'
+                        }
+                    }
+                }
+            });
+        </script>
+    
+   
+</body>
+</html>

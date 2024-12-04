@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+    box-sizing: border-box;
+}
+
+body{
+
+
+}
+
+
+
+.position_itens_header{
+    margin-top: 60px;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.position_itens_header{
+    
+    
+    align-items: baseline;
+}
+
+header >.position_itens_header> nav{
+    
+    
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 50px;
+    
+    font-weight: 400; 
+    font-size: 16px;
+    
+}
+
+nav > a {
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+
+h1{
+    
+    margin-right: 200px;
+    justify-content: left;
+    margin-left: 135px;
+}
+
+
+.section_user{
+    
+    
+    margin-left: 200px;
+    display: flex;
+    justify-content: right;
+    margin-left: 60px;
+}
+
+.suprema {
+    background-color: #000000;
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding: 10px;
+    border: 1px solid #121111; /* Borda verde com espessura de 1px */
+}
+
+
+
+
+    
+.section_nav{
+
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.todeys{
+
+
+margin-top: 220px;
+display: flex;
+align-items:center;
+
+color: crimson;
+
+}
+
+.todeys > p{
+
+    margin-left: 10px;
+    font-size: 20px;
+}
+  
+
+
+
+.conteiner_relogio_H2{
+
+font-size: 80px;
+
+}
+
+.conteiner_relogio{
+
+display: flex;
+
+align-items: baseline;
+
+
+}
+
+.conteiner_relogio_H2 {
+
+
+font-size: 40px;
+margin-bottom: 10px;
+
+}
+
+.data{
+color: aliceblue;
+
+    display: flex;
+    align-items: baseline;
+    margin-left: 330px;
+    font-size: 20px;
+    gap: 58px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.clicar_produtos{
+
+    display: flex;
+justify-content: center;
+
+margin-top: 40px;
+
+}
+
+.descrição_Prudu{
+
+display: flex;
+flex-direction: column;
+justify-content: left;
+
+}
+
+
+x
+.posicionar_itens{
+
+
+display: flex;
+flex-direction: column;
+margin-left: 80px;
+
+}
+
+.posicionar_itens > h1{
+
+font-size: 45px;
+margin-left: -3px;
+margin-top: 30px;
+margin-right: 10px;
+}
+
+
+
+.acoes_produto {
+    display: flex;
+    justify-content: flex-start;  /* Distribui os botões para os lados */
+    width: 100%;
+    align-items: center;  /* Centraliza os botões verticalmente */
+    gap: 10px
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.editar, .excluir {
+    padding: 8px 16px;  /* Aumenta o espaço dentro dos botões */
+    margin: 0 5px;  /* Remove o espaçamento externo desnecessário */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: auto;  /* Deixa a largura dos botões ajustável */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.editar {
+    background-color: #4CAF50;  /* Cor de fundo verde */
+    color: white;
+}
+
+.editar:hover {
+    background-color: #45a049;  /* Cor de fundo verde ao passar o mouse */
+}
+
+.excluir {
+    background-color: #f44336;  /* Cor de fundo vermelha */
+    color: white;
+}
+
+.excluir:hover {
+    background-color: #e53935;  /* Cor de fundo vermelha ao passar o mouse */
+}
+
+/* CSS para exibir os produtos em linha */
+.selecao_produtos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */
+    gap: 20px; /* Espaçamento entre os produtos */
+}
+
+.linha_produtos {
+    background: #242422;
+    display: flex;
+    gap: 20px;
+    width: 100%;  /* Garantir que a linha ocupe toda a largura disponível */
+}
+
+.descrição_Prudu {
+    width: calc(25% - 20px); /* Cada produto ocupará 25% da largura da linha */
+    box-sizing: border-box;
+}
+
+
+.botao-adicionar {
+    padding: 8px 16px;  /* Aumenta o espaço dentro dos botões */
+    margin: 0 5px;  /* Remove o espaçamento externo desnecessário */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+    width: auto;  /* Deixa a largura dos botões ajustável */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+background: rgb(255, 255, 255);
+}
+.Negao{
+width: 100%;
+background-color: #000;
+
+}
