@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/teste.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+
+
+        <div class="position_itens_header">
+            
+            
+            <h1>Exclusive</h1>
+            
+            <!-- navegação para diferentes partes do site - nav do header -->
+            <nav>
+                <a href="">Home</a>
+                <a href="">Contac</a>
+                <a href="About.html">Sobre</a>
+                <a href="">Sing Up</a>
+
+                <div class="section_user">
+                    
+                    
+                    <!-- barra de pesquisa - carrinho - curtidos. (aprender como implementar com JS) -->
+                    <img class="barra_de_pesquisa" src="assets/Search Component Set.png" alt="">
+                    <img src="assets/Wishlist.png" alt="carrinho">
+                    <img class="carrinho" src="assets/Cart1 with buy.png" alt="curtidos">
+                </div>
+                
+            
+
+                    </nav>
+            
+        </div>
+
+
+    </header>
+<div class="suprema">
+
+
+
+
+
+
+
+
+
+
+    <section class="About_History">
+
+
+<div class="Historia">
+
+
+
+<h1 class="titulo">Historia</h1>
+
+
+<p class="_aboutp">A $wag Zone nasceu com o objetivo de transformar a experiência <br>
+     de compra online em algo simples e acessível. Somos uma loja criada para quem <br>
+     busca produtos de qualidade, preços justos e um atendimento que realmente se <br>
+     importa com cada cliente <br>
+    
+    Nossa equipe escolhe cada item com cuidado, sempre pensando em como ele pode fazer <br>
+     a diferença no seu dia a dia. Queremos que você tenha uma experiência de compra leve <br>
+     e sem complicações, com uma plataforma segura e fácil de usar. <br>
+    
+    Mais do que vender produtos, buscamos criar uma conexão verdadeira com você, <br>
+     oferecendo confiança e inspiração em cada compra.</p>
+    
+</div>
+
+
+  <img src="" alt="">
+
+
+<img src="Side Image.png" alt="">
+
+</section>
+
+</div>
+    
+</body>
+</html>
+
+
+
+
+<div class="conteiner_produtos">
+    <a class="clicar_produtos" href="/indexPRODUTOS/PagePruduto${produto.id}.html">
+        <img class="img_produtos" src="${produto.imagem}" alt="${produto.nome}">
+    </a>
+</div>
+
+<div class="ratozo">
+
+    <span class="nomeproduto">${produto.nome}</span>
+    <button class="editar" onclick="editarProduto('${produto.id}')">Editar</button>
+    <button class="excluir" onclick="excluirProduto('${produto.id}')">Excluir</button>
+    
+</div>
+
+
+
+
+<strong class="preço">${produto.preco} <span>${produto.precoAntigo}</span></strong>
+
+
+
+
+<div class="acoes_produto">
+</div>

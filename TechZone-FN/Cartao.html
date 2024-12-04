@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Form</title>
+    <link rel="stylesheet" href="/css/Cartao.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Partículas Interativas</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                height: 100%;
+                margin: 0;
+                overflow: hidden;
+                font-family: 'Courier New', Courier, monospace;
+                background: radial-gradient(circle, rgba(38, 1, 42, 0.8), rgba(114, 4, 126, 0.8), rgba(155, 3, 168, 0.7), rgba(127, 7, 129, 0.6));
+                background-size: 400% 400%;
+                animation: fluidBackground 15s ease infinite;
+            }
+    
+            @keyframes fluidBackground {
+                0% {
+                    background-position: 0% 50%;
+                }
+                25% {
+                    background-position: 100% 50%;
+                }
+                50% {
+                    background-position: 0% 100%;
+                }
+                75% {
+                    background-position: 100% 100%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+    
+            #particles-js {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="particles-js"></div>
+    
+        <!-- Inclusão da biblioteca particles.js -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+        <script>
+            particlesJS('particles-js', {
+                particles: {
+                    number: {
+                        value: 100,
+                        density: {
+                            enable: true,
+                            value_area: 800
+                        }
+                    },
+                    color: {
+                        value: "#ffffff"
+                    },
+                    shape: {
+                        type: "circle",
+                        stroke: {
+                            width: 0,
+                            color: "#000000"
+                        },
+                    },
+                    opacity: {
+                        value: 0.5,
+                        random: true,
+                        anim: {
+                            enable: true,
+                            speed: 1,
+                            opacity_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    size: {
+                        value: 5,
+                        random: true,
+                        anim: {
+                            enable: true,
+                            speed: 40,
+                            size_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 150,
+                        color: "#ffffff",
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 2,
+                        direction: "none",
+                        random: false,
+                        straight: false,
+                        out_mode: "out",
+                        bounce: false,
+                        attract: {
+                            enable: true,
+                            rotateX: 600,
+                            rotateY: 1200
+                        }
+                    }
+                },
+                interactivity: {
+                    detect_on: "canvas",
+                    events: {
+                        onhover: {
+                            enable: true,
+                            mode: "grab"
+                        },
+                        onclick: {
+                            enable: true,
+                            mode: "push"
+                        },
+                        resize: true
+                    },
+                    modes: {
+                        grab: {
+                            distance: 200,
+                            line_linked: {
+                                opacity: 0.5
+                            }
+                        },
+                        bubble: {
+                            distance: 200,
+                            size: 10,
+                            duration: 2,
+                            opacity: 1,
+                            speed: 3
+                        },
+                        repulse: {
+                            distance: 200,
+                            duration: 0.4
+                        },
+                        push: {
+                            particles_nb: 4
+                        },
+                        remove: {
+                            particles_nb: 2
+                        }
+                    }
+                },
+                retina_detect: true
+            });
+        </script>
+    </html>
+    
+    <header>
+
+  
+        <nav class="header_nav">
+
+
+      <a class="AS" href="/index.html">HOME</a>
+    <a class="AS"  href="/Cartao.html">PAGAMENTO</a>
+      <a class="AS" href="">SOBRE</a>
+      <a class="AS" href="/TodosProdutos.html">PRODUTOS</a>
+
+        </nav>
+           
+
+
+      </header>  
+
+
+    <div id="particles-js"></div>
+
+    <!-- Conteúdo que aparecerá acima das partículas -->
+    
+
+    <!-- Inclusão da biblioteca particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+    <script>
+        // Inicialização do particles.js
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                shape: {
+                    type: 'circle'
+                },
+                color: {
+                    value: '#ffffff'
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 5,
+                    random: true,
+                    anim: {
+                        enable: false,
+                        speed: 4,
+                        size_min: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#ffffff',
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: 'none',
+                    random: true,
+                    straight: false,
+                    out_mode: 'bounce'
+                }
+            },
+            interactivity: {
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'repulse'
+                    }
+                }
+            }
+        });
+    </script>
+
+
+    <main class="container">
+        <section class="ui">
+            <div class="container-left">
+                <form id="credit-card">
+                    <div class="number-container">
+                        <label>Card Number</label>
+                        <input type="text" name="card-number" id="card-number" maxlength="19" placeholder="1234 5678 9101 1121"
+                        required
+                        onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                    </div>
+                    <div class="name-container">
+                        <label>Holder</label>
+                        <input type="text" name="name-text" id="name-text" maxlength="30" placeholder="Atila Jacinto"
+                        required
+                        onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || event.key == ' '">
+                    </div>
+                    <div class="infos-container">
+                        <div class="expiration-container">
+                            <label>Valid-thru</label>
+                            <input type="text" name="valid-thru-text" id="valid-thru-text" maxlength="5" placeholder="02/40"
+                            required
+                            
+                            onkeypress="return event.charCode >=48 && event.charCode <= 57">
+                        </div>
+                        <div class="cvv-container">
+                            <label>CVV</label>
+                            <input type="text" name="cvv-text" id="cvv-text" maxlength="3" placeholder="123"
+                            required
+                            onkeypress="return event.charCode >=48 && event.charCode <= 57">
+                        </div>
+                    </div>
+                    <input type="submit" value="ADD" id="add">
+                </form>
+            </div>
+            <div class="container-right">
+                <div class="card">
+                    <div class="intern">
+                        <img class="approximation" src="/assets/img/aprox.png" alt="aproximation">
+                        <div class="card-number">
+                            <div class="number-vl">1234 5678 9101 1121</div>
+                        </div>
+                        <div class="card-holder">
+                            <label>Holder</label>
+                            <div class="name-vl">Atila Jacinto</div>
+                        </div>
+                        <div class="card-infos">
+                            <div class="exp">
+                                <label>valid-thru</label>
+                                <div class="expiration-vl">12/24</div>
+                            </div>
+                            <div class="cvv">
+                                <label>CVV</label>
+                                <div class="cvv-vl">123</div>
+                            </div>
+                        </div>
+                        <img class="chip" src="/assets/img/chip.png" alt="chip">
+                    </div>
+                </div>
+            </div>
+        </section>.
+    </main>
+    <script src="/JS/Cartao.js"></script>
+</body>
+</html>.
